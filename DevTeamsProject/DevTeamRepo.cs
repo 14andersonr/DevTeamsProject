@@ -34,9 +34,7 @@ namespace DevTeamsProject
             {
                 oldID.TeamName = newID.TeamName;
                 oldID.TeamID = newID.TeamID;
-                oldID.TeamGoal = newID.TeamGoal;
-                oldID.NumberofTeamMembers = newID.NumberofTeamMembers;
-
+                oldID.DevTeamMembers = newID.DevTeamMembers;
 
                 return true;
             }

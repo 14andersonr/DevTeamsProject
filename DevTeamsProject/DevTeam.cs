@@ -9,17 +9,14 @@ namespace DevTeamsProject
     public class DevTeam
     {
         public string TeamName { get; set; }
-        public string TeamGoal { get; set; }
         public string TeamID { get; set; }
-        public int NumberofTeamMembers { get; set; }
+        public List<Developer> DevTeamMembers { get; set; } = new List<Developer>();
 
         public DevTeam() { }
-        public DevTeam(string teamName, string teamGoal, string teamID, int numberOfTeamMembers)
+        public DevTeam(string teamName, string teamID)
         {
-            teamName = TeamName;
-            teamGoal  = TeamGoal;
-            teamID = TeamID;
-            numberOfTeamMembers  = NumberofTeamMembers;
+            TeamName = teamName;
+            TeamID = teamID;
         }
     }
 }

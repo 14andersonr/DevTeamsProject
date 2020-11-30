@@ -15,9 +15,9 @@ namespace DevTeamsProject
         public Developer() { }
         public Developer(string name, string iDNumber, bool hasPluralSightAccess)
         {
-            name = Name;
-            iDNumber  = IDNumber;
-            hasPluralSightAccess  = HasPluralSightAccess;
+            Name = name;
+            IDNumber  = iDNumber;
+            HasPluralSightAccess  = hasPluralSightAccess;
         }
     }
 }

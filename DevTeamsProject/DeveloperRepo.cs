@@ -72,7 +72,7 @@ namespace DevTeamsProject
         {
             foreach (Developer developer in _developerDirectory)
             {
-                if (developer.IDNumber.ToLower() == iD.ToLower())
+                if (developer.IDNumber == iD)
                 {
                     return developer;
                 }
